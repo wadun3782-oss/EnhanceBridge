@@ -1,0 +1,13 @@
+name: EnhanceBridge
+version: 1.0.0
+main: dev.yourorg.enhancebridge.EnhanceBridge
+api-version: 1.16
+depend: [MMOItems, MMOCore]
+commands:
+  enhancebridge:
+    description: Skript와 MMOItems 강화 브릿지 명령어
+    usage: /enhancebridge enhance <player> <stat> <amount>
+    permission: enhancebridge.use
+permissions:
+  enhancebridge.use:
+    default: op
