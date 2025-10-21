@@ -22,7 +22,7 @@ jobs:
         run: mvn -B clean package
 
       - name: Upload jar
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: EnhanceBridge
           path: target/*.jar
